@@ -43,11 +43,11 @@ for die in range(number_dice):
 print(dice)
 
 #for die in range(number_of_dice):
-#    for line in dice_art.get(dice[die]):
+#    for line in dice_art.get(dice[die]): #vertical dice
  #       print(line)
 
 for row in range(5):
-    for die in dice:
+    for die in dice:                        # horizontal dice
         print(dice_art.get(die)[row], end="")  # print top line to buttom of every cube simultaneously . it will print first line of every cube.
     print()
 
