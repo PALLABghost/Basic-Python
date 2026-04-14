@@ -6,8 +6,8 @@ char = " " + string.ascii_letters + string.punctuation + string.digits
 char = list(char)
 key = char.copy()
 random.shuffle(key)
-print(char)
-print(key)
+#print(f"CHAR: {char}")
+#print(f"KEY: {key}")
 
 #Encryption
 user_input = input("Enter the a message to encrypt: ")
