@@ -47,7 +47,7 @@ def main():
         display_hint(hint)
         guess = input("Chose a word :").lower()
 
-        if len(guess) != 1 and not guess.isalpha():
+        if len(guess) != 1 or not guess.isalpha():
             print("invalid entry")
             continue
 
