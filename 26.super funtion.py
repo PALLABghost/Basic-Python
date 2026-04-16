@@ -12,7 +12,7 @@ class Circle(Shape):
         super().__init__(color,is_filled)
         self.radius = radius
 
-    def describe(self):     #method ovewrighting
+    def describe(self):     #method override
         print(f"It is circle with the area of  {3.14 * self.radius * self.radius}cm^2")
         super().describe()
 
@@ -35,6 +35,8 @@ print(circle.color)
 print(circle.is_filled)
 print(f"{circle.radius}cm")
 print(square.is_filled)
+
+
 
 circle.describe()
 triangle.describe()
