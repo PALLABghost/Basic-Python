@@ -7,10 +7,10 @@ from car import Car
  #      self.color = color
   #     self.for_sale =for_sale
 
-   # def drive(self):
+   # def drive(self):           #mathod creation
    #     print(f"You drive the {self.color} {self.model}")
 
-  #  def stop(self):
+  #  def stop(self):        #mathod  creation
   #      print(f"You stop the  {self.color} {self.model}")
 
   #  def describe(self):
@@ -22,8 +22,8 @@ print(car1.model)
 print(car2.year)
 print(car2.color)
 
-car1.drive()
-car1.stop()
+car1.drive()        #mathod
+car1.stop()         #mathod
 car2.drive()
 
 car1.describe()
