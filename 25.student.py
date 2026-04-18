@@ -8,12 +8,13 @@ class Student:
         self.age = age
         Student.num_of_student += 1     #calling class variable and when a student(object) created increment the num
 
-student1 = Student("Suresh", 30)
+student1 = Student("Suresh", 30)  #object created in class
 student2 = Student("Roma", 35)
 student3 = Student("Jesh", 37)
 
 print(student2.name)
 print(student2.age)
-print(Student.class_year)
+print(Student.class_year)       # we can call the variable with created object also,
+                                # for best practice its should called with Class, so we can identify as a class variable
 print(f"My Graduating class of {Student.class_year} has {Student.num_of_student} students")
 
