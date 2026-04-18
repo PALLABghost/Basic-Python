@@ -9,7 +9,7 @@ class Shape:
 
 class Circle(Shape):
     def __init__(self,color,is_filled,radius):
-        super().__init__(color,is_filled)
+        super().__init__(color,is_filled)           #borrow color and is_filled
         self.radius = radius
 
     def describe(self):     #method override
