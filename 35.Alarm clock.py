@@ -16,7 +16,7 @@ def set_alarm(alarm_time):
             pygame.mixer.music.load(music_file)
             pygame.mixer.music.play()
             if pygame.mixer.music.get_busy():
-                time.sleep(1)
+                time.sleep(10)
             return False
         time.sleep(1)
 
